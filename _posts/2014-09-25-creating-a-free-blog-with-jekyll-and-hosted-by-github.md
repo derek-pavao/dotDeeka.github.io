@@ -42,6 +42,7 @@ and didn't want out of a blogging platform.
  against PHP, but I don't find it fun to write and this is supposed to be fun.
  - And Lastly, it has to be easy.
 
+<!--end-excerpt-->
 
 ### Analyzing My Options
 ---
