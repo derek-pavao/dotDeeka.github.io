@@ -16,7 +16,7 @@ of years now and occasionally I come across topics, gotchas or other things in m
 that I thought would make a good blog post. The thing that keeps me from doing it is
 the setup and maintenance of the blog itself.
 
-I have worked with both Drupal and WordPress in my professional career and in my opinion
+I have worked with both Drupal and WordPress in my professional career and in my opinion,
 both are complete overkill for what I want out of a blog. I want my blogging experience to
 be nice and easy. I know myself well and I know if I have to work at blogging, one thing is
 certain, I wont blog for long. I decided I needed to come up with a list of what I wanted
@@ -85,7 +85,7 @@ themes, and the kicker... if you push a Jekyll site to a GitHub Pages repo it wi
 make it available at your domain.
 
 At this point I was completely sold Jekyll and GitHub Pages are the answer. I can now manage and deploy my blog,
-with only Git, GitHub. I even get to write my blog posts in my beloved text editor Emacs.
+with only Git, and GitHub. I even get to write my blog posts in my beloved text editor Emacs.
 
 ### Installing and Configuring Jekyll on OSX
 ---
@@ -119,7 +119,7 @@ a date are assumed to be published, those without are assumed to be drafts.
 There are available free themes for Jekyll sites,
 [jekyllthemes.org](http://http://jekyllthemes.org/).
 Usually these themes will have instructions on how to use them with both
-an existing blog, and when starting a new blog. I suggest if you plan
+an existing site, and when starting a new site. I suggest if you plan
 to use a free theme you choose it first and follow the instuctions
 for using that theme for a new Jekyll site.
 
@@ -165,14 +165,17 @@ be available at <username>.github.io. Take this site for example I have a repo i
 called dotDeeka.github.io, and it is available at http://dotDeeka.github.io
 
 Project level sites are a little different. They live in the same repo as the project
-they are for. Take Twitter's bootstrap project for example. The projects repo is located at
-[https://github.com/twbs/bootstrap](https://github.com/twbs/bootstrap). That project contains
-a git branch named gh-pages. The gh-pages branch contains a Jekyll site. By default the project
-level site is available at <username>.github.io/repo-name, so in this case
-[https://twbs.github.io/bootstrap](https://twbs.github.io/bootstrap) (NOTE: In Twitter Boostrap's
-case the have a CNAME record for getbootstrap.com pointing to twbs.github.io/bootstrap so if you
-navigate to twbs.github.io/bootstrap you'll notice the styles and things will be messed up. This
-is because the paths to stylesheets and things are wrong)
+they are for. Take the famous [Underscore.js](https://underscorejs.org) library.
+The UnderscoreJS project on GitHub has a gh-pages branch with a static site in it.
+If you navigate to [https://jashkenas.github.io/underscore](https://jashkenas.github.io/underscore)
+you'll notice the documentation site is available there also.
 
 For full docs, and a much better decription, on GitHub Pages check out
 [https://pages.github.com/](https://pages.github.com/)
+
+### In Conclusion
+---
+Jekyll is amazingly simple to use, at least for a developer type or someone tech savy.
+It does require a bit of knowledge of the command line, installing Ruby Gems and running commands
+and such. But, if your at least a little comfortable with that stuff, writing posts and managing
+your blog is incredibly simple.
